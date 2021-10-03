@@ -11,93 +11,99 @@
 <body>
 
     <hr>
-    <audio controls src="./rock.mp3">
-    </audio>
-    <video width="500" height="500" controls>
-        <source src="./rock.mp4" type="video/mp4">
-    </video>
-    <img src="x.png" alt="testing image" width="50" height="50">
-    <br>
-    <div>
-        <textarea rows="4" cols="20">
-            This is an example of a div tag
-    </textarea>
-    </div>
-    <br>
-    <form>
-        <label for="txt">put something here:</label><br>
-        <input type="text" id="txt" name="txt">
-        <input type="date" id="d" name="d">
-        <fieldset>
-            <input type="radio" id="a" name="fld">
-            <label for="a">you're a</label><br>
-
-            <input type="checkbox" id="b" name="b">
-            <label for="b">you're b</label>
-        </fieldset>
-        <input type="submit" value="Submit">
-    </form>
-    <br>
-    <label>datalist example:</label>
-    <input list="listhold" />
-
-    <datalist id="listhold">
-        <option value="a">
-        <option value="b">
-    </datalist>
-    <br>
-    <label for="selecthold">choose a button:</label>
-
-    <select name="selecthold" id="selecthold">
-        <option value="a">b</option>
-        <option value="b">a</option>
-
-    </select>
-    <br>
-    <button type="button">a</button>
-    <hr>
-    <nav>
-        <a href="https://www.google.com/">google</a> |
-    </nav>
-    <hr>
     <header>
-        <h1>NEED AUDIO VIDEO LINK</h1>
-        <p><span>I am me</span></p>
-        <p>AAAAAAAAAAAAA</p>
+        <h1>Pomodoro Timer</h1>
+        <p><span>This is a meeting minute entry</span></p>
+        <nav>
+            <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">info on pomodoro timers</a> |
+        </nav>
     </header>
 
     <main>
 
         <section>
-            <h2>Pomodoro Timer First Brainstorm</h2>
+            <h2>meeting minute entry 1:</h2>
 
         </section>
 
         <section>
-            <b>some lists</b>
+            <b>What did we do this meeting</b>
             <ul>
-                <li><em>we</em></li>
-                <li>did nothing</li>
+                <li><em>Below I have the meeting audio</em></li>
+                <li>this is a sample audio file</li>
 
             </ul>
+            <audio controls src="./rock.mp3">
+            </audio>
             <ol>
-                <li><i>but</i></li>
-                <li>we did do </li>
-                <li>something</li>
+                <li><i>There is also a video of the meeting</i></li>
+                <li>This is a sample file</li>
             </ol>
-            <strong>End of the lists</strong>
+            <video width="300" height="300" controls>
+                <source src="./rock.mp4" type="video/mp4">
+            </video>
+            <br>
+            <strong>an image of our work so far:</strong>
+            <img src="x.png" alt="testing image" width="50" height="50">
+            <br>
+            <details>
+                <summary>info about image </summary>
+               this is a sample image
+            </details>
         </section>
+        <hr>
+        <form>
+            <label for="txt">Enter your name and the  date you read this:</label><br>
+            <input type="text" id="txt" name="txt">
+            <input type="date" id="d" name="d">
+            <input type="submit" value="Submit">
+        </form>
 
     </main>
-    <details>
-        <summary>Sample detail tag</summary>
-        what is inside the tag
-    </details>
+    <div>
+        <textarea rows="4" cols="20">
+            enter any thoughts for the next meeting
+    </textarea>
+    <p>will you attend the next meeting</p>
+    <br>
+    <fieldset>
+        <input type="radio" id="a" name="fld">
+        <label for="a">yes</label><br>
+        <input type="radio" id="b" name="fld">
+        <label for="b">no</label><br>
+        <input type="checkbox" id="c" name="c">
+        <label for="b">yes</label>
+        <input type="checkbox" id="c" name="c">
+        <label for="b">no</label>
+        <br>
+        <input type="submit" value="Submit">
+
+    </fieldset>
+    </div>
+    
     <hr>
+    <br>
+    <label>pick who you are in the meeting:</label>
+    <input list="listhold" />
+
+    <datalist id="listhold">
+        <option value="me">
+        <option value="you">
+    </datalist>
+    <br>
+    <label for="selecthold">send to who did not attend:</label>
+
+    <select name="selecthold" id="selecthold">
+        <option value="a">joe</option>
+        <option value="b">bob</option>
+
+    </select>
+    <button type="button">send them a link to the minutes</button>
+    
     <footer>
-        <h3>Pomodoro Timer First Brainstorm</h3>
-        <p>I am me using br<br>
-            AAAAAAAAAAA
+        <h3>Next meeting ideas</h3>
+        <p>nothing to see here but we use br to break<br>
+            Not another p tag
         </p>
     </footer>
 </body>
