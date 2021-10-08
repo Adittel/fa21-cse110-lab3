@@ -1,8 +1,15 @@
+@font-face {
+    font-family: "temp";
+    src:url('/Akronim-Regular.ttf');
+  }
 .holding {
     color: orange;
     display: block;
 
 }
+h1 {
+    font-family: "temp";
+  }
 #txt {
     height: 100px;
     width:150px;
