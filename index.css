@@ -2,11 +2,20 @@
     font-family: "temp";
     src:url('/Akronim-Regular.ttf');
   }
+  /* makes this green if the aspect ratio is right*/
+@media (min-aspect-ratio: 10/5) {
+    *#txt {
+        border-color: hsl(100, 100, 40); 
+      }
+  }
 .holding {
     color: orange;
     display: block;
 
 }
+*#txt {
+    border-color: hsl(110, 40, 10); 
+  }
 h1 {
     font-family: "temp";
   }
@@ -15,9 +24,7 @@ h1 {
     width:150px;
     padding: 10mm 10mm 10mm 10mm;
   }
-*#txt {
-    border-color: hsl(100, 100, 40); 
-  }
+
 h3 {
     color: rgb(236, 122, 56) ; 
     text-decoration: dashed;
@@ -70,10 +77,9 @@ ul > li {
 h3 ~ p {
     border-radius:10%;
   }
+ 
 /*
 grid 
-reposponce 
-font
 
 *\
 /*
