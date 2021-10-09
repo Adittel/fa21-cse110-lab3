@@ -1,6 +1,6 @@
 @font-face {
     font-family: "temp";
-    src:url('/Akronim-Regular.ttf');
+    src:url('./Akronim-Regular.ttf');
   }
   /* makes this green if the aspect ratio is right*/
 @media (min-aspect-ratio: 10/5) {
